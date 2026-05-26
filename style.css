@@ -1,0 +1,240 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000; 
+    color: #f5f5f7;
+    margin: 0;
+    padding: 30px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0a0a0c;
+    border: 1px solid #1a1a1a;
+    border-radius: 16px;
+    padding: 35px;
+    margin-bottom: 30px;
+}
+
+.header-konteyner {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.profil-resmi {
+    width: 170px;
+    height: 170px;
+    border-radius: 30px;
+    object-fit: cover;
+    border: 3px solid #0066cc; 
+}
+
+.header-metin h1 {
+    margin: 0;
+    font-size: 2.6rem;
+    color: #ffffff;
+}
+
+.okul-bilgisi {
+    margin: 8px 0 4px 0;
+    color: #a0a0a5;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.daktilo-alani {
+    margin: 5px 0 0 0;
+    color: #0088ff; 
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.imlec {
+    color: #0088ff;
+    font-weight: bold;
+    animation: yanipSon 0.8s infinite;
+}
+@keyframes yanipSon {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+section {
+    background-color: #0a0a0c;
+    border: 1px solid #1a1a1a;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 16px;
+}
+
+section h2 {
+    margin-top: 0;
+    color: #ffffff;
+    font-size: 1.5rem;
+    border-left: 4px solid #0066cc;
+    padding-left: 12px;
+}
+
+.yetenekler-listesi {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.yetenek-kartı {
+    background-color: #16161a;
+    border: 1px solid #2a2a30;
+    color: #0088ff;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.sertifikalar-grubu {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.sertifika-kartı {
+    background-color: #121214;
+    border: 1px solid #1a1a1a;
+    padding: 15px 20px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sertifika-sol h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.sertifika-sol .kurum {
+    margin: 4px 0 0 0;
+    color: #0088ff;
+    font-size: 0.9rem;
+}
+
+.sertifika-kartı .tarih {
+    color: #707075;
+    font-size: 0.85rem;
+    background-color: #0a0a0c;
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 1px solid #222;
+}
+
+.projeler-listesi {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.proje-karti {
+    background-color: #121214;
+    border: 1px solid #222;
+    padding: 20px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.proje-karti:hover {
+    border-color: #0066cc;
+    transform: translateY(-3px);
+}
+
+.proje-karti h3 {
+    margin: 0 0 8px 0;
+    color: #ffffff;
+}
+
+.proje-karti p {
+    margin: 0;
+    color: #a0a0a5;
+    font-size: 0.95rem;
+}
+
+.proje-ust-satir {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.etiket {
+    background-color: rgba(0, 102, 204, 0.15);
+    color: #0088ff;
+    border: 1px solid #0066cc;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #0a0a0c;
+    border: 1px solid #1a1a1a;
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center; 
+}
+
+footer h2 {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+footer p {
+    color: #a0a0a5;
+    margin-bottom: 20px;
+}
+
+.iletisim-linkler {
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.buton {
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.mail-btn {
+    background-color: #0066cc;
+    color: white;
+}
+
+.github-btn {
+    background-color: #24292e;
+    color: white;
+    border: 1px solid #333;
+}
+
+.linkedin-btn {
+    background-color: #0077b5;
+    color: white;
+}
+
+.buton:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.telif {
+    margin-top: 30px !important;
+    font-size: 0.8rem;
+    color: #505055 !important;
+}
