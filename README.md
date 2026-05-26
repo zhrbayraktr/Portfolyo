@@ -28,8 +28,7 @@ Aşağıdaki frontend teknolojileri ve araçlar kullanılarak saf (pure) kodlama
 ---
 ## 🚀 Kurulum ve Çalıştırma
 
-Bu projeyi yerel bilgisayarınızda incelemek isterseniz:
+Bu projeyi yerel bilgisayarınızda incelemek isterseniz, aşağıdaki komutla depoyu bilgisayarınıza klonlayabilirsiniz:
 
-1. Depoyu bilgisayarınıza klonlayın:
-   ```bash
-   git clone [https://github.com/zhrbayraktr/Portfolyo.git](https://github.com/zhrbayraktr/Portfolyo.git)
+```bash
+git clone [https://github.com/zhrbayraktr/Portfolyo.git](https://github.com/zhrbayraktr/Portfolyo.git)
